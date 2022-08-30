@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    width: 275px;
+}
+
+.first {
+  /* min-height: 800px; */
+  background-image: url(img/img1.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 75%;
+  background-color: #E7F066;
+}
+
+.logo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.cart {
+    margin-top: 15px;
+}
+
+.basket {
+    display: flex;
+    padding-right: 25px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.first-info {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   padding-right: 3%;
+   padding-top: 15%;
+}
+
+.first-text {
+    color: #262626;
+    text-shadow: 1px 1px 2px #F1F1EE;
+}
+
+.link-text {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 1px;
+    padding-top: 21px;
+    text-transform: uppercase;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+}
+
+.first-heading {
+    padding-top: 25%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    text-shadow: 1px 1px 2px #F1F1EE;
+}
+
+.second {
+    min-height: 800px;
+    background-image: url(img/img2.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 75%;
+    background-color: #9C8554;
+    color: #B2B2B2;
+}
+
+.second-heading-second {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    padding-top: 3%;
+    padding-left: 2%;
+}
+
+.second-block-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-info {
+    padding-top: 40%;
+    padding-left: 2%;
+}
+
+.second-heading {
+    padding-top: 46%;
+    padding-right: 2%;
+}
