@@ -120,3 +120,20 @@ body {
     padding-top: 46%;
     padding-right: 2%;
 }
+
+.third {
+    min-height: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background: url(img/img3.1.png) top left no-repeat,
+                url(img/img3.2.png) top right no-repeat;
+    background-size: 50%;
+    background-color: #B2B2B2;
+    color: #262626;
+}
+
+.third-text {
+    margin-bottom: 3%;
+    margin-right: 25%;
+}
