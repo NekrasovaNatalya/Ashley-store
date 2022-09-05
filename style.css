@@ -298,7 +298,7 @@ form {
         min-height: 588px;
     }
 
-    .first, .second, .fourth, .fifth, .sixth, .seventh, .eighth {
+    .first, .second, .fourth, .fifth, .seventh, .eighth {
         background-size: 100%;
         background-position: left center;
     }
@@ -325,10 +325,10 @@ form {
     .first-info {
         align-items: flex-start;
         padding-left: 5%;
-        padding-top: 75%;
+        padding-top: 80%;
     }
-    
-        .second-heading-second {
+
+    .second-heading-second {
         padding-top: 15%;
         padding-left: 5%;
     }
@@ -347,7 +347,7 @@ form {
         padding-top: 55%;
         padding-left: 5%;
     }
-    
+
     .third {
         min-height: 300px;
     }
@@ -366,7 +366,15 @@ form {
     .fourth-content {
         margin: 0 5%;
     }
-    
+
+    .fifth-heading {
+        color: #A26779;
+    }
+
+    .sixth {
+        background-position: left bottom;
+    }
+
     .inputs {
         flex-direction: column;
     }
