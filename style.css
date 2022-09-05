@@ -72,6 +72,10 @@ body {
     text-transform: uppercase;
 }
 
+.first-link-text {
+    padding-top: 2%;
+}
+
 .heading {
   font-style: normal;
   font-weight: 600;
@@ -80,7 +84,7 @@ body {
 }
 
 .first-heading {
-    padding-top: 25%;
+    padding-top: 17%;
     padding-left: 3%;
     padding-bottom: 3%;
 }
@@ -261,4 +265,132 @@ form {
     color: #CCCCCC;
     text-transform: uppercase;
     margin-top: 18px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        min-height: 400px;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    .first {
+        background-position: left center;
+    }
+
+    .third-text {
+        margin-right: 0;
+    }
+
+    .fourth-content {
+        margin: 0 9%;
+    }
+
+    .fifth {
+        background-size: 68%;
+    }
+}
+
+@media (max-width: 767px) {
+    .inputs {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        min-height: 588px;
+    }
+
+    .first, .second, .fourth, .fifth, .seventh, .eighth {
+        background-size: 100%;
+        background-position: left center;
+    }
+
+    .link-text {
+        font-size: 12px;
+        text-underline-offset: 5px;
+    }
+
+    .menu {
+        padding-top: 10px;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .logo {
+        height: 25px;
+        margin-top: 15px;
+    }
+
+    .first-heading {
+        padding-top: 7%;
+        padding-left: 5%;
+    }
+
+    .first-info {
+        align-items: flex-start;
+        padding-left: 5%;
+        padding-top: 80%;
+    }
+
+    .second-heading-second {
+        padding-top: 15%;
+        padding-left: 5%;
+    }
+
+    .second-block-text {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .second-heading {
+        padding-top: 25%;
+        padding-left: 5%;
+    }
+
+    .second-info {
+        padding-top: 55%;
+        padding-left: 5%;
+    }
+
+    .third {
+        min-height: 300px;
+    }
+
+    .third-text {
+        margin-bottom: 5%;
+        padding-left: 5%;
+    }
+
+    .fourth {
+        justify-content: start;
+        align-items: flex-end;
+        background-position: left top;
+    }
+
+    .fourth-content {
+        margin: 0 5%;
+    }
+
+    .fifth-heading {
+        color: #A26779;
+        text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .sixth {
+        background-position: left bottom;
+    }
+
+    .eighth-heading {
+        color: #B04836;
+        text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    }
+
 }
