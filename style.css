@@ -293,6 +293,13 @@ form {
     }
 }
 
+@media (max-width: 767px) {
+    .inputs {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+}
+
 @media (max-width: 425px) {
     .container {
         min-height: 588px;
@@ -375,7 +382,8 @@ form {
         background-position: left bottom;
     }
 
-    .inputs {
-        flex-direction: column;
+    .eighth-heading {
+        color: #B04836;
     }
+
 }
