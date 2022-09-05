@@ -347,6 +347,26 @@ form {
         padding-top: 55%;
         padding-left: 5%;
     }
+    
+    .third {
+        min-height: 300px;
+    }
+
+    .third-text {
+        margin-bottom: 5%;
+        padding-left: 5%;
+    }
+
+    .fourth {
+        justify-content: start;
+        align-items: flex-end;
+        background-position: left top;
+    }
+
+    .fourth-content {
+        margin: 0 5%;
+    }
+    
     .inputs {
         flex-direction: column;
     }
