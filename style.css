@@ -294,6 +294,39 @@ form {
 }
 
 @media (max-width: 425px) {
+    .container {
+        min-height: 588px;
+    }
+
+    .first, .second, .fourth, .fifth, .sixth, .seventh, .eighth {
+        background-size: 100%;
+        background-position: left center;
+    }
+
+    .menu {
+        padding-top: 10px;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .logo {
+        height: 25px;
+        margin-top: 15px;
+    }
+
+    .first-heading {
+        padding-top: 7%;
+        padding-left: 5%;
+    }
+
+    .first-info {
+        align-items: flex-start;
+        padding-left: 5%;
+        padding-top: 75%;
+    }
     .inputs {
         flex-direction: column;
     }
