@@ -327,6 +327,26 @@ form {
         padding-left: 5%;
         padding-top: 75%;
     }
+    
+        .second-heading-second {
+        padding-top: 15%;
+        padding-left: 5%;
+    }
+
+    .second-block-text {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .second-heading {
+        padding-top: 25%;
+        padding-left: 5%;
+    }
+
+    .second-info {
+        padding-top: 55%;
+        padding-left: 5%;
+    }
     .inputs {
         flex-direction: column;
     }
