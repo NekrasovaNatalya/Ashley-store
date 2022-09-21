@@ -1,3 +1,3 @@
 # Ashley-store
 
-https://nekrasovanatalya.github.io/Ashley-store/
+[Demo](https://nekrasovanatalya.github.io/Ashley-store/)
