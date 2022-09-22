@@ -40,21 +40,34 @@ body {
 }
 
 .basket {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-right: 25px;
 }
 
 .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding-top: 25px;
     padding-left: 25px;
 }
 
 .first-info {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   flex-direction: column;
-   align-items: flex-end;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   -webkit-box-align: end;
+       -ms-flex-align: end;
+           align-items: flex-end;
    padding-right: 3%;
    padding-top: 15%;
 }
@@ -110,8 +123,12 @@ body {
 }
 
 .second-block-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .second-info {
@@ -127,9 +144,14 @@ body {
 
 .third {
     min-height: 800px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     background: url(img/img3.1.png) top left no-repeat,
                 url(img/img3.2.png) top right no-repeat;
     background-size: 50%;
@@ -150,9 +172,15 @@ body {
     background-position: left center;
     background-size: 65%;
     background-color: #EBEBEB;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
     color: #262626;
 }
 
@@ -225,8 +253,12 @@ body {
 
 .footer {
     min-height: 190px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-color: #262626;
     color: #CCCCCC;
     font-size: 14px;
@@ -238,6 +270,8 @@ form {
 }
 
 .inputs {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 46px;
 }
@@ -247,7 +281,8 @@ form {
 }
 
 .name, .email {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     width: 280px;
     background-color: #262626;
     border:0;
@@ -256,7 +291,8 @@ form {
 }
 
 .submit {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit; 
@@ -295,7 +331,10 @@ form {
 
 @media (max-width: 767px) {
     .inputs {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         margin-top: 15px;
     }
 }
@@ -320,8 +359,13 @@ form {
     }
 
     .description {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column-reverse;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
     }
 
     .logo {
@@ -335,7 +379,9 @@ form {
     }
 
     .first-info {
-        align-items: flex-start;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
         padding-left: 5%;
         padding-top: 80%;
     }
@@ -346,8 +392,13 @@ form {
     }
 
     .second-block-text {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column-reverse;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
     }
 
     .second-heading {
@@ -370,8 +421,12 @@ form {
     }
 
     .fourth {
-        justify-content: start;
-        align-items: flex-end;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
         background-position: left top;
     }
 
